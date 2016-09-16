@@ -54,8 +54,9 @@ repeat = (s) => {
 // Category theory for JavaScript programmers #2: guarded functions and categories
 
 /*
- minule jsme ukázali contract a jak to pomůže zabránit programu aby proběhl ane choval se divně
- jakmile máme kontrakty můžeme psát guarger functions
+ Minule jsme ukázali contract a jak to pomůže zabránit programu aby proběhl ale choval se divně.
+
+ Jakmile máme kontrakty můžeme psát *guarded functions*
 
  2 části: contract + guarded functions tvoří kategorii
 
