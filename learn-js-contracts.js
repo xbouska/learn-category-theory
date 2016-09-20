@@ -3,6 +3,10 @@
  */
 
 
+//import describe from 'mocha';
+//import {assert, expect}  from 'chai';
+import 'chai/should';
+
 
 //Category theory for JavaScript programmers #1: contracts
 
@@ -21,11 +25,16 @@ const str = s => {
 };
 
 //here should come tests
-
 /*
- console.log(str("OK: test string"));
- console.log(str(1));
- */
+describe("Str contract", () => {
+    it("passes a str contract"), () => {
+        //str("OK: test string").is.string;
+    }
+}
+*/
+//console.log(str("OK: test string"));
+//console.log(str(1));
+
 
 //not type safe repeat
 let repeat;
@@ -47,7 +56,6 @@ repeat = (s) => {
 //console.log(repeat("joe"));
 
 //realistic example is for es zIndex from the DOM
-
 
 
 //--------------------------------------------------------------------------------------
@@ -187,6 +195,7 @@ class Some extends Maybe {
         super();
         this.x = x;
     }
+
     toString() {
         return `Some(${this.x}) `;
     }
@@ -204,29 +213,6 @@ const maybe = c => m => {
 console.log("" + maybe(repeat)(none));
 console.log(maybe(repeat)(some("joe")).getOrElse("jane"));
 console.log(maybe(repeat)(none).getOrElse("jane"));
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 //----------------------
