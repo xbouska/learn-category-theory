@@ -1,4 +1,4 @@
-var path = require('path');
+const path = require('path');
 
 
 module.exports = {
@@ -6,6 +6,7 @@ module.exports = {
   context: path.join(__dirname, 'src'),
   entry: {
     chapter1: './example/chapter1.js',
+    '__tests__/chapter1': './example/chapter1.spec.js',
   },
 
   output: {
