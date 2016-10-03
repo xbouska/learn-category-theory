@@ -23,7 +23,9 @@
     "jest-cli": "^15.1.1",
     "webpack": "^1.13.2"
   },
-
+"jest":{
+  "testPathDirs":["dist"]
+},
   "scripts": {
     "test": "jest",
     "webpack": "webpack --watch"
