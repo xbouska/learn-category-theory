@@ -64,14 +64,14 @@ const repeat = (s) => {
 // Category theory for JavaScript programmers #2: guarded functions and categories
 
 /*
- Minule jsme ukázali contract a jak to pomůže zabránit programu aby proběhl ale choval se divně.
+ Minule jsme si ukázali contract a pomůže zabránit programu aby proběhl, ale choval se jinak než očekáváme.
 
  Jakmile máme kontrakty můžeme psát *guarded functions*
 
  2 části: contract + guarded functions tvoří kategorii
 
  functors: functions that map between categories
- natural transformations: maps betweem functors
+ natural transformations: maps between functors
 
  contracts: in our case str
  guarded functions: in our case: repeat
