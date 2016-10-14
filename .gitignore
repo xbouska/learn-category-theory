@@ -1,4 +1,4 @@
 dist/
 .idea/
 node_modules/
-dist/chapter1.bundle.js
+dist
